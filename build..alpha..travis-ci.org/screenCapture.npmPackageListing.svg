@@ -1,24 +1,24 @@
 <svg height="334" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="334" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-11 18:58:50 +0000    54638 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-11 18:58:50 +0000     3681 bytes  CHANGELOG.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-11 18:58:50 +0000     1060 bytes  LICENSE</tspan>
-<tspan x="10" y="74">  3.  2017-04-11 18:58:50 +0000     5685 bytes  README.md</tspan>
-<tspan x="10" y="90">  4.  2017-04-11 18:58:50 +0000      465 bytes  bower.json</tspan>
-<tspan x="10" y="106">  5.  2017-04-11 18:58:50 +0000     9437 bytes  dist/hashids.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-11 18:58:50 +0000     5009 bytes  dist/hashids.min.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-11 18:58:50 +0000     7443 bytes  dist/hashids.min.map</tspan>
-<tspan x="10" y="154">  8.  2017-04-11 18:58:50 +0000     6898 bytes  lib/hashids.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-11 18:58:50 +0000     3395 bytes  package.json</tspan>
-<tspan x="10" y="186"> 10.  2017-04-11 18:58:50 +0000     2477 bytes  tests/bad-input.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-11 18:58:50 +0000     1064 bytes  tests/custom-alphabet.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-11 18:58:50 +0000     1433 bytes  tests/custom-params-hex.js</tspan>
-<tspan x="10" y="234"> 13.  2017-04-11 18:58:50 +0000     1855 bytes  tests/custom-params.js</tspan>
-<tspan x="10" y="250"> 14.  2017-04-11 18:58:50 +0000      818 bytes  tests/custom-salt.js</tspan>
-<tspan x="10" y="266"> 15.  2017-04-11 18:58:50 +0000     1122 bytes  tests/default-params-hex.js</tspan>
-<tspan x="10" y="282"> 16.  2017-04-11 18:58:50 +0000     1398 bytes  tests/default-params.js</tspan>
-<tspan x="10" y="298"> 17.  2017-04-11 18:58:50 +0000      685 bytes  tests/encode-types.js</tspan>
-<tspan x="10" y="314"> 18.  2017-04-11 18:58:50 +0000      713 bytes  tests/min-length.js</tspan>
+<tspan x="10" y="26">  0.  2017-04-11 19:01:08 +0000    54638 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-11 19:01:08 +0000     3681 bytes  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-11 19:01:08 +0000     1060 bytes  LICENSE</tspan>
+<tspan x="10" y="74">  3.  2017-04-11 19:01:08 +0000     5685 bytes  README.md</tspan>
+<tspan x="10" y="90">  4.  2017-04-11 19:01:08 +0000      465 bytes  bower.json</tspan>
+<tspan x="10" y="106">  5.  2017-04-11 19:01:08 +0000     9437 bytes  dist/hashids.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-11 19:01:08 +0000     5009 bytes  dist/hashids.min.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-11 19:01:08 +0000     7443 bytes  dist/hashids.min.map</tspan>
+<tspan x="10" y="154">  8.  2017-04-11 19:01:08 +0000     6898 bytes  lib/hashids.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-11 19:01:08 +0000     3395 bytes  package.json</tspan>
+<tspan x="10" y="186"> 10.  2017-04-11 19:01:08 +0000     2477 bytes  tests/bad-input.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-11 19:01:08 +0000     1064 bytes  tests/custom-alphabet.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-11 19:01:08 +0000     1433 bytes  tests/custom-params-hex.js</tspan>
+<tspan x="10" y="234"> 13.  2017-04-11 19:01:08 +0000     1855 bytes  tests/custom-params.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-11 19:01:08 +0000      818 bytes  tests/custom-salt.js</tspan>
+<tspan x="10" y="266"> 15.  2017-04-11 19:01:08 +0000     1122 bytes  tests/default-params-hex.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-11 19:01:08 +0000     1398 bytes  tests/default-params.js</tspan>
+<tspan x="10" y="298"> 17.  2017-04-11 19:01:08 +0000      685 bytes  tests/encode-types.js</tspan>
+<tspan x="10" y="314"> 18.  2017-04-11 19:01:08 +0000      713 bytes  tests/min-length.js</tspan>
 </text>
 </svg>

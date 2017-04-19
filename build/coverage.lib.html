@@ -1,5 +1,7 @@
-<html lang="en"><head>
-    <title>Code coverage report for node-npmtest-hashids/hashids/dist/hashids.js</title>
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for node-npmtest-hashids/node_modules/hashids/dist/hashids.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -192,7 +194,7 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-hashids">npmtest-hashids (v0.0.1)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-hashids/hashids/dist/hashids.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-hashids/node_modules/hashids/dist/hashids.js</span></h1>
     <h2>
         
         Statements: <span class="metric">14.29% <small>(26 / 182)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -208,11 +210,11 @@
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../index.html">All files</a> » <a href="index.html">node-npmtest-hashids/hashids/dist/</a> » hashids.js</div>
+    <div class="path"><a href="../../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-hashids/node_modules/hashids/dist/</a> &#187; hashids.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
-<tbody><tr><td class="line-count">1
+<tr><td class="line-count">1
 2
 3
 4
@@ -965,16 +967,16 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">(function (global, factory) {
-	<span class="missing-if-branch" title="if path not taken">I</span>if (typeof define === "function" &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered">define.amd)</span> {
-<span class="cstat-no" title="statement not covered">		define(['module', 'exports'], factory);</span>
-	} else <span class="missing-if-branch" title="else path not taken">E</span>if (typeof exports !== "undefined") {
+	<span class="missing-if-branch" title="if path not taken" >I</span>if (typeof define === "function" &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >define.amd)</span> {
+<span class="cstat-no" title="statement not covered" >		define(['module', 'exports'], factory);</span>
+	} else <span class="missing-if-branch" title="else path not taken" >E</span>if (typeof exports !== "undefined") {
 		factory(module, exports);
 	} else {
-<span class="cstat-no" title="statement not covered">		var mod = {</span>
+<span class="cstat-no" title="statement not covered" >		var mod = {</span>
 			exports: {}
 		};
-<span class="cstat-no" title="statement not covered">		factory(mod, mod.exports);</span>
-<span class="cstat-no" title="statement not covered">		global.Hashids = mod.exports;</span>
+<span class="cstat-no" title="statement not covered" >		factory(mod, mod.exports);</span>
+<span class="cstat-no" title="statement not covered" >		global.Hashids = mod.exports;</span>
 	}
 })(this, function (module, exports) {
 	'use strict';
@@ -983,9 +985,9 @@
 		value: true
 	});
 &nbsp;
-<span class="fstat-no" title="function not covered">	function _classCallCheck(instance, Constructor) {</span>
-<span class="cstat-no" title="statement not covered">		if (!(instance instanceof Constructor)) {</span>
-<span class="cstat-no" title="statement not covered">			throw new TypeError("Cannot call a class as a function");</span>
+<span class="fstat-no" title="function not covered" >	function _classCallCheck(instance, Constructor) {</span>
+<span class="cstat-no" title="statement not covered" >		if (!(instance instanceof Constructor)) {</span>
+<span class="cstat-no" title="statement not covered" >			throw new TypeError("Cannot call a class as a function");</span>
 		}
 	}
 &nbsp;
@@ -995,71 +997,71 @@
 				var descriptor = props[i];
 				descriptor.enumerable = descriptor.enumerable || false;
 				descriptor.configurable = true;
-				<span class="missing-if-branch" title="else path not taken">E</span>if ("value" in descriptor) descriptor.writable = true;
+				<span class="missing-if-branch" title="else path not taken" >E</span>if ("value" in descriptor) descriptor.writable = true;
 				Object.defineProperty(target, descriptor.key, descriptor);
 			}
 		}
 &nbsp;
 		return function (Constructor, protoProps, staticProps) {
-			<span class="missing-if-branch" title="else path not taken">E</span>if (protoProps) defineProperties(Constructor.prototype, protoProps);
-			<span class="missing-if-branch" title="if path not taken">I</span>if (staticProps) <span class="cstat-no" title="statement not covered">defineProperties(Constructor, staticProps);</span>
+			<span class="missing-if-branch" title="else path not taken" >E</span>if (protoProps) defineProperties(Constructor.prototype, protoProps);
+			<span class="missing-if-branch" title="if path not taken" >I</span>if (staticProps) <span class="cstat-no" title="statement not covered" >defineProperties(Constructor, staticProps);</span>
 			return Constructor;
 		};
 	}();
 &nbsp;
 	var Hashids = function () {
-<span class="fstat-no" title="function not covered">		function Hashids() {</span>
-<span class="cstat-no" title="statement not covered">			var salt = arguments.length &lt;= 0 || arguments[0] === undefined ? '' : arguments[0];</span>
-<span class="cstat-no" title="statement not covered">			var minLength = arguments.length &lt;= 1 || arguments[1] === undefined ? 0 : arguments[1];</span>
-<span class="cstat-no" title="statement not covered">			var alphabet = arguments.length &lt;= 2 || arguments[2] === undefined ? 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890' : arguments[2];</span>
+<span class="fstat-no" title="function not covered" >		function Hashids() {</span>
+<span class="cstat-no" title="statement not covered" >			var salt = arguments.length &lt;= 0 || arguments[0] === undefined ? '' : arguments[0];</span>
+<span class="cstat-no" title="statement not covered" >			var minLength = arguments.length &lt;= 1 || arguments[1] === undefined ? 0 : arguments[1];</span>
+<span class="cstat-no" title="statement not covered" >			var alphabet = arguments.length &lt;= 2 || arguments[2] === undefined ? 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890' : arguments[2];</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">			_classCallCheck(this, Hashids);</span>
+<span class="cstat-no" title="statement not covered" >			_classCallCheck(this, Hashids);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">			var minAlphabetLength = 16;</span>
-<span class="cstat-no" title="statement not covered">			var sepDiv = 3.5;</span>
-<span class="cstat-no" title="statement not covered">			var guardDiv = 12;</span>
+<span class="cstat-no" title="statement not covered" >			var minAlphabetLength = 16;</span>
+<span class="cstat-no" title="statement not covered" >			var sepDiv = 3.5;</span>
+<span class="cstat-no" title="statement not covered" >			var guardDiv = 12;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">			var errorAlphabetLength = 'error: alphabet must contain at least X unique characters';</span>
-<span class="cstat-no" title="statement not covered">			var errorAlphabetSpace = 'error: alphabet cannot contain spaces';</span>
+<span class="cstat-no" title="statement not covered" >			var errorAlphabetLength = 'error: alphabet must contain at least X unique characters';</span>
+<span class="cstat-no" title="statement not covered" >			var errorAlphabetSpace = 'error: alphabet cannot contain spaces';</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">			var uniqueAlphabet = '',</span>
+<span class="cstat-no" title="statement not covered" >			var uniqueAlphabet = '',</span>
 			    sepsLength = void 0,
 			    diff = void 0;
 &nbsp;
 			/* funcs */
 &nbsp;
-<span class="cstat-no" title="statement not covered">			this.escapeRegExp = <span class="fstat-no" title="function not covered">function (s) {</span></span>
-<span class="cstat-no" title="statement not covered">				return s.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&amp;');</span>
+<span class="cstat-no" title="statement not covered" >			this.escapeRegExp = <span class="fstat-no" title="function not covered" >function (s) {</span></span>
+<span class="cstat-no" title="statement not covered" >				return s.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&amp;');</span>
 			};
-<span class="cstat-no" title="statement not covered">			this.parseInt = <span class="fstat-no" title="function not covered">function (v, radix) {</span></span>
-<span class="cstat-no" title="statement not covered">				return (/^(\-|\+)?([0-9]+|Infinity)$/.test(v) ? parseInt(v, radix) : NaN</span>
+<span class="cstat-no" title="statement not covered" >			this.parseInt = <span class="fstat-no" title="function not covered" >function (v, radix) {</span></span>
+<span class="cstat-no" title="statement not covered" >				return (/^(\-|\+)?([0-9]+|Infinity)$/.test(v) ? parseInt(v, radix) : NaN</span>
 				);
 			};
 &nbsp;
 			/* alphabet vars */
 &nbsp;
-<span class="cstat-no" title="statement not covered">			this.seps = 'cfhistuCFHISTU';</span>
-<span class="cstat-no" title="statement not covered">			this.minLength = parseInt(minLength, 10) &gt; 0 ? minLength : 0;</span>
-<span class="cstat-no" title="statement not covered">			this.salt = typeof salt === 'string' ? salt : '';</span>
+<span class="cstat-no" title="statement not covered" >			this.seps = 'cfhistuCFHISTU';</span>
+<span class="cstat-no" title="statement not covered" >			this.minLength = parseInt(minLength, 10) &gt; 0 ? minLength : 0;</span>
+<span class="cstat-no" title="statement not covered" >			this.salt = typeof salt === 'string' ? salt : '';</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">			if (typeof alphabet === 'string') {</span>
-<span class="cstat-no" title="statement not covered">				this.alphabet = alphabet;</span>
+<span class="cstat-no" title="statement not covered" >			if (typeof alphabet === 'string') {</span>
+<span class="cstat-no" title="statement not covered" >				this.alphabet = alphabet;</span>
 			}
 &nbsp;
-<span class="cstat-no" title="statement not covered">			for (var i = 0; i !== this.alphabet.length; i++) {</span>
-<span class="cstat-no" title="statement not covered">				if (uniqueAlphabet.indexOf(this.alphabet.charAt(i)) === -1) {</span>
-<span class="cstat-no" title="statement not covered">					uniqueAlphabet += this.alphabet.charAt(i);</span>
+<span class="cstat-no" title="statement not covered" >			for (var i = 0; i !== this.alphabet.length; i++) {</span>
+<span class="cstat-no" title="statement not covered" >				if (uniqueAlphabet.indexOf(this.alphabet.charAt(i)) === -1) {</span>
+<span class="cstat-no" title="statement not covered" >					uniqueAlphabet += this.alphabet.charAt(i);</span>
 				}
 			}
 &nbsp;
-<span class="cstat-no" title="statement not covered">			this.alphabet = uniqueAlphabet;</span>
+<span class="cstat-no" title="statement not covered" >			this.alphabet = uniqueAlphabet;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">			if (this.alphabet.length &lt; minAlphabetLength) {</span>
-<span class="cstat-no" title="statement not covered">				throw errorAlphabetLength.replace('X', minAlphabetLength);</span>
+<span class="cstat-no" title="statement not covered" >			if (this.alphabet.length &lt; minAlphabetLength) {</span>
+<span class="cstat-no" title="statement not covered" >				throw errorAlphabetLength.replace('X', minAlphabetLength);</span>
 			}
 &nbsp;
-<span class="cstat-no" title="statement not covered">			if (this.alphabet.search(' ') !== -1) {</span>
-<span class="cstat-no" title="statement not covered">				throw errorAlphabetSpace;</span>
+<span class="cstat-no" title="statement not covered" >			if (this.alphabet.search(' ') !== -1) {</span>
+<span class="cstat-no" title="statement not covered" >				throw errorAlphabetSpace;</span>
 			}
 &nbsp;
 			/*
@@ -1067,269 +1069,269 @@
    	`this.alphabet` should not contains `this.seps`
    */
 &nbsp;
-<span class="cstat-no" title="statement not covered">			for (var _i = 0; _i !== this.seps.length; _i++) {</span>
+<span class="cstat-no" title="statement not covered" >			for (var _i = 0; _i !== this.seps.length; _i++) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				var j = this.alphabet.indexOf(this.seps.charAt(_i));</span>
-<span class="cstat-no" title="statement not covered">				if (j === -1) {</span>
-<span class="cstat-no" title="statement not covered">					this.seps = this.seps.substr(0, _i) + ' ' + this.seps.substr(_i + 1);</span>
+<span class="cstat-no" title="statement not covered" >				var j = this.alphabet.indexOf(this.seps.charAt(_i));</span>
+<span class="cstat-no" title="statement not covered" >				if (j === -1) {</span>
+<span class="cstat-no" title="statement not covered" >					this.seps = this.seps.substr(0, _i) + ' ' + this.seps.substr(_i + 1);</span>
 				} else {
-<span class="cstat-no" title="statement not covered">					this.alphabet = this.alphabet.substr(0, j) + ' ' + this.alphabet.substr(j + 1);</span>
+<span class="cstat-no" title="statement not covered" >					this.alphabet = this.alphabet.substr(0, j) + ' ' + this.alphabet.substr(j + 1);</span>
 				}
 			}
 &nbsp;
-<span class="cstat-no" title="statement not covered">			this.alphabet = this.alphabet.replace(/ /g, '');</span>
+<span class="cstat-no" title="statement not covered" >			this.alphabet = this.alphabet.replace(/ /g, '');</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">			this.seps = this.seps.replace(/ /g, '');</span>
-<span class="cstat-no" title="statement not covered">			this.seps = this._shuffle(this.seps, this.salt);</span>
+<span class="cstat-no" title="statement not covered" >			this.seps = this.seps.replace(/ /g, '');</span>
+<span class="cstat-no" title="statement not covered" >			this.seps = this._shuffle(this.seps, this.salt);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">			if (!this.seps.length || this.alphabet.length / this.seps.length &gt; sepDiv) {</span>
+<span class="cstat-no" title="statement not covered" >			if (!this.seps.length || this.alphabet.length / this.seps.length &gt; sepDiv) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				sepsLength = Math.ceil(this.alphabet.length / sepDiv);</span>
+<span class="cstat-no" title="statement not covered" >				sepsLength = Math.ceil(this.alphabet.length / sepDiv);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				if (sepsLength &gt; this.seps.length) {</span>
+<span class="cstat-no" title="statement not covered" >				if (sepsLength &gt; this.seps.length) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">					diff = sepsLength - this.seps.length;</span>
-<span class="cstat-no" title="statement not covered">					this.seps += this.alphabet.substr(0, diff);</span>
-<span class="cstat-no" title="statement not covered">					this.alphabet = this.alphabet.substr(diff);</span>
+<span class="cstat-no" title="statement not covered" >					diff = sepsLength - this.seps.length;</span>
+<span class="cstat-no" title="statement not covered" >					this.seps += this.alphabet.substr(0, diff);</span>
+<span class="cstat-no" title="statement not covered" >					this.alphabet = this.alphabet.substr(diff);</span>
 				}
 			}
 &nbsp;
-<span class="cstat-no" title="statement not covered">			this.alphabet = this._shuffle(this.alphabet, this.salt);</span>
-<span class="cstat-no" title="statement not covered">			var guardCount = Math.ceil(this.alphabet.length / guardDiv);</span>
+<span class="cstat-no" title="statement not covered" >			this.alphabet = this._shuffle(this.alphabet, this.salt);</span>
+<span class="cstat-no" title="statement not covered" >			var guardCount = Math.ceil(this.alphabet.length / guardDiv);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">			if (this.alphabet.length &lt; 3) {</span>
-<span class="cstat-no" title="statement not covered">				this.guards = this.seps.substr(0, guardCount);</span>
-<span class="cstat-no" title="statement not covered">				this.seps = this.seps.substr(guardCount);</span>
+<span class="cstat-no" title="statement not covered" >			if (this.alphabet.length &lt; 3) {</span>
+<span class="cstat-no" title="statement not covered" >				this.guards = this.seps.substr(0, guardCount);</span>
+<span class="cstat-no" title="statement not covered" >				this.seps = this.seps.substr(guardCount);</span>
 			} else {
-<span class="cstat-no" title="statement not covered">				this.guards = this.alphabet.substr(0, guardCount);</span>
-<span class="cstat-no" title="statement not covered">				this.alphabet = this.alphabet.substr(guardCount);</span>
+<span class="cstat-no" title="statement not covered" >				this.guards = this.alphabet.substr(0, guardCount);</span>
+<span class="cstat-no" title="statement not covered" >				this.alphabet = this.alphabet.substr(guardCount);</span>
 			}
 		}
 &nbsp;
 		_createClass(Hashids, [{
 			key: 'encode',
-			value: <span class="fstat-no" title="function not covered">function encode() {</span>
-<span class="cstat-no" title="statement not covered">				for (var _len = arguments.length, numbers = Array(_len), _key = 0; _key &lt; _len; _key++) {</span>
-<span class="cstat-no" title="statement not covered">					numbers[_key] = arguments[_key];</span>
+			value: <span class="fstat-no" title="function not covered" >function encode() {</span>
+<span class="cstat-no" title="statement not covered" >				for (var _len = arguments.length, numbers = Array(_len), _key = 0; _key &lt; _len; _key++) {</span>
+<span class="cstat-no" title="statement not covered" >					numbers[_key] = arguments[_key];</span>
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				var ret = '';</span>
+<span class="cstat-no" title="statement not covered" >				var ret = '';</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				if (!numbers.length) {</span>
-<span class="cstat-no" title="statement not covered">					return ret;</span>
+<span class="cstat-no" title="statement not covered" >				if (!numbers.length) {</span>
+<span class="cstat-no" title="statement not covered" >					return ret;</span>
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				if (numbers[0] &amp;&amp; numbers[0].constructor === Array) {</span>
-<span class="cstat-no" title="statement not covered">					numbers = numbers[0];</span>
-<span class="cstat-no" title="statement not covered">					if (!numbers.length) {</span>
-<span class="cstat-no" title="statement not covered">						return ret;</span>
+<span class="cstat-no" title="statement not covered" >				if (numbers[0] &amp;&amp; numbers[0].constructor === Array) {</span>
+<span class="cstat-no" title="statement not covered" >					numbers = numbers[0];</span>
+<span class="cstat-no" title="statement not covered" >					if (!numbers.length) {</span>
+<span class="cstat-no" title="statement not covered" >						return ret;</span>
 					}
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				for (var i = 0; i !== numbers.length; i++) {</span>
-<span class="cstat-no" title="statement not covered">					numbers[i] = this.parseInt(numbers[i], 10);</span>
-<span class="cstat-no" title="statement not covered">					if (numbers[i] &gt;= 0) {</span>
-<span class="cstat-no" title="statement not covered">						continue;</span>
+<span class="cstat-no" title="statement not covered" >				for (var i = 0; i !== numbers.length; i++) {</span>
+<span class="cstat-no" title="statement not covered" >					numbers[i] = this.parseInt(numbers[i], 10);</span>
+<span class="cstat-no" title="statement not covered" >					if (numbers[i] &gt;= 0) {</span>
+<span class="cstat-no" title="statement not covered" >						continue;</span>
 					} else {
-<span class="cstat-no" title="statement not covered">						return ret;</span>
+<span class="cstat-no" title="statement not covered" >						return ret;</span>
 					}
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				return this._encode(numbers);</span>
+<span class="cstat-no" title="statement not covered" >				return this._encode(numbers);</span>
 			}
 		}, {
 			key: 'decode',
-			value: <span class="fstat-no" title="function not covered">function decode(id) {</span>
+			value: <span class="fstat-no" title="function not covered" >function decode(id) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				var ret = [];</span>
+<span class="cstat-no" title="statement not covered" >				var ret = [];</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				if (!id || !id.length || typeof id !== 'string') {</span>
-<span class="cstat-no" title="statement not covered">					return ret;</span>
+<span class="cstat-no" title="statement not covered" >				if (!id || !id.length || typeof id !== 'string') {</span>
+<span class="cstat-no" title="statement not covered" >					return ret;</span>
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				return this._decode(id, this.alphabet);</span>
+<span class="cstat-no" title="statement not covered" >				return this._decode(id, this.alphabet);</span>
 			}
 		}, {
 			key: 'encodeHex',
-			value: <span class="fstat-no" title="function not covered">function encodeHex(hex) {</span>
+			value: <span class="fstat-no" title="function not covered" >function encodeHex(hex) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				hex = hex.toString();</span>
-<span class="cstat-no" title="statement not covered">				if (!/^[0-9a-fA-F]+$/.test(hex)) {</span>
-<span class="cstat-no" title="statement not covered">					return '';</span>
+<span class="cstat-no" title="statement not covered" >				hex = hex.toString();</span>
+<span class="cstat-no" title="statement not covered" >				if (!/^[0-9a-fA-F]+$/.test(hex)) {</span>
+<span class="cstat-no" title="statement not covered" >					return '';</span>
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				var numbers = hex.match(/[\w\W]{1,12}/g);</span>
+<span class="cstat-no" title="statement not covered" >				var numbers = hex.match(/[\w\W]{1,12}/g);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				for (var i = 0; i !== numbers.length; i++) {</span>
-<span class="cstat-no" title="statement not covered">					numbers[i] = parseInt('1' + numbers[i], 16);</span>
+<span class="cstat-no" title="statement not covered" >				for (var i = 0; i !== numbers.length; i++) {</span>
+<span class="cstat-no" title="statement not covered" >					numbers[i] = parseInt('1' + numbers[i], 16);</span>
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				return this.encode.apply(this, numbers);</span>
+<span class="cstat-no" title="statement not covered" >				return this.encode.apply(this, numbers);</span>
 			}
 		}, {
 			key: 'decodeHex',
-			value: <span class="fstat-no" title="function not covered">function decodeHex(id) {</span>
+			value: <span class="fstat-no" title="function not covered" >function decodeHex(id) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				var ret = [];</span>
+<span class="cstat-no" title="statement not covered" >				var ret = [];</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				var numbers = this.decode(id);</span>
+<span class="cstat-no" title="statement not covered" >				var numbers = this.decode(id);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				for (var i = 0; i !== numbers.length; i++) {</span>
-<span class="cstat-no" title="statement not covered">					ret += numbers[i].toString(16).substr(1);</span>
+<span class="cstat-no" title="statement not covered" >				for (var i = 0; i !== numbers.length; i++) {</span>
+<span class="cstat-no" title="statement not covered" >					ret += numbers[i].toString(16).substr(1);</span>
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				return ret;</span>
+<span class="cstat-no" title="statement not covered" >				return ret;</span>
 			}
 		}, {
 			key: '_encode',
-			value: <span class="fstat-no" title="function not covered">function _encode(numbers) {</span>
+			value: <span class="fstat-no" title="function not covered" >function _encode(numbers) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				var ret = void 0,</span>
+<span class="cstat-no" title="statement not covered" >				var ret = void 0,</span>
 				    alphabet = this.alphabet,
 				    numbersIdInt = 0;
 &nbsp;
-<span class="cstat-no" title="statement not covered">				for (var i = 0; i !== numbers.length; i++) {</span>
-<span class="cstat-no" title="statement not covered">					numbersIdInt += numbers[i] % (i + 100);</span>
+<span class="cstat-no" title="statement not covered" >				for (var i = 0; i !== numbers.length; i++) {</span>
+<span class="cstat-no" title="statement not covered" >					numbersIdInt += numbers[i] % (i + 100);</span>
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				ret = alphabet.charAt(numbersIdInt % alphabet.length);</span>
-<span class="cstat-no" title="statement not covered">				var lottery = ret;</span>
+<span class="cstat-no" title="statement not covered" >				ret = alphabet.charAt(numbersIdInt % alphabet.length);</span>
+<span class="cstat-no" title="statement not covered" >				var lottery = ret;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				for (var _i2 = 0; _i2 !== numbers.length; _i2++) {</span>
+<span class="cstat-no" title="statement not covered" >				for (var _i2 = 0; _i2 !== numbers.length; _i2++) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">					var number = numbers[_i2];</span>
-<span class="cstat-no" title="statement not covered">					var buffer = lottery + this.salt + alphabet;</span>
+<span class="cstat-no" title="statement not covered" >					var number = numbers[_i2];</span>
+<span class="cstat-no" title="statement not covered" >					var buffer = lottery + this.salt + alphabet;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">					alphabet = this._shuffle(alphabet, buffer.substr(0, alphabet.length));</span>
-<span class="cstat-no" title="statement not covered">					var last = this._toAlphabet(number, alphabet);</span>
+<span class="cstat-no" title="statement not covered" >					alphabet = this._shuffle(alphabet, buffer.substr(0, alphabet.length));</span>
+<span class="cstat-no" title="statement not covered" >					var last = this._toAlphabet(number, alphabet);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">					ret += last;</span>
+<span class="cstat-no" title="statement not covered" >					ret += last;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">					if (_i2 + 1 &lt; numbers.length) {</span>
-<span class="cstat-no" title="statement not covered">						number %= last.charCodeAt(0) + _i2;</span>
-<span class="cstat-no" title="statement not covered">						var sepsIndex = number % this.seps.length;</span>
-<span class="cstat-no" title="statement not covered">						ret += this.seps.charAt(sepsIndex);</span>
+<span class="cstat-no" title="statement not covered" >					if (_i2 + 1 &lt; numbers.length) {</span>
+<span class="cstat-no" title="statement not covered" >						number %= last.charCodeAt(0) + _i2;</span>
+<span class="cstat-no" title="statement not covered" >						var sepsIndex = number % this.seps.length;</span>
+<span class="cstat-no" title="statement not covered" >						ret += this.seps.charAt(sepsIndex);</span>
 					}
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				if (ret.length &lt; this.minLength) {</span>
+<span class="cstat-no" title="statement not covered" >				if (ret.length &lt; this.minLength) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">					var guardIndex = (numbersIdInt + ret[0].charCodeAt(0)) % this.guards.length;</span>
-<span class="cstat-no" title="statement not covered">					var guard = this.guards[guardIndex];</span>
+<span class="cstat-no" title="statement not covered" >					var guardIndex = (numbersIdInt + ret[0].charCodeAt(0)) % this.guards.length;</span>
+<span class="cstat-no" title="statement not covered" >					var guard = this.guards[guardIndex];</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">					ret = guard + ret;</span>
+<span class="cstat-no" title="statement not covered" >					ret = guard + ret;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">					if (ret.length &lt; this.minLength) {</span>
+<span class="cstat-no" title="statement not covered" >					if (ret.length &lt; this.minLength) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">						guardIndex = (numbersIdInt + ret[2].charCodeAt(0)) % this.guards.length;</span>
-<span class="cstat-no" title="statement not covered">						guard = this.guards[guardIndex];</span>
+<span class="cstat-no" title="statement not covered" >						guardIndex = (numbersIdInt + ret[2].charCodeAt(0)) % this.guards.length;</span>
+<span class="cstat-no" title="statement not covered" >						guard = this.guards[guardIndex];</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">						ret += guard;</span>
+<span class="cstat-no" title="statement not covered" >						ret += guard;</span>
 					}
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				var halfLength = parseInt(alphabet.length / 2, 10);</span>
-<span class="cstat-no" title="statement not covered">				while (ret.length &lt; this.minLength) {</span>
+<span class="cstat-no" title="statement not covered" >				var halfLength = parseInt(alphabet.length / 2, 10);</span>
+<span class="cstat-no" title="statement not covered" >				while (ret.length &lt; this.minLength) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">					alphabet = this._shuffle(alphabet, alphabet);</span>
-<span class="cstat-no" title="statement not covered">					ret = alphabet.substr(halfLength) + ret + alphabet.substr(0, halfLength);</span>
+<span class="cstat-no" title="statement not covered" >					alphabet = this._shuffle(alphabet, alphabet);</span>
+<span class="cstat-no" title="statement not covered" >					ret = alphabet.substr(halfLength) + ret + alphabet.substr(0, halfLength);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">					var excess = ret.length - this.minLength;</span>
-<span class="cstat-no" title="statement not covered">					if (excess &gt; 0) {</span>
-<span class="cstat-no" title="statement not covered">						ret = ret.substr(excess / 2, this.minLength);</span>
+<span class="cstat-no" title="statement not covered" >					var excess = ret.length - this.minLength;</span>
+<span class="cstat-no" title="statement not covered" >					if (excess &gt; 0) {</span>
+<span class="cstat-no" title="statement not covered" >						ret = ret.substr(excess / 2, this.minLength);</span>
 					}
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				return ret;</span>
+<span class="cstat-no" title="statement not covered" >				return ret;</span>
 			}
 		}, {
 			key: '_decode',
-			value: <span class="fstat-no" title="function not covered">function _decode(id, alphabet) {</span>
+			value: <span class="fstat-no" title="function not covered" >function _decode(id, alphabet) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				var ret = [],</span>
+<span class="cstat-no" title="statement not covered" >				var ret = [],</span>
 				    i = 0,
 				    r = new RegExp('[' + this.escapeRegExp(this.guards) + ']', 'g'),
 				    idBreakdown = id.replace(r, ' '),
 				    idArray = idBreakdown.split(' ');
 &nbsp;
-<span class="cstat-no" title="statement not covered">				if (idArray.length === 3 || idArray.length === 2) {</span>
-<span class="cstat-no" title="statement not covered">					i = 1;</span>
+<span class="cstat-no" title="statement not covered" >				if (idArray.length === 3 || idArray.length === 2) {</span>
+<span class="cstat-no" title="statement not covered" >					i = 1;</span>
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				idBreakdown = idArray[i];</span>
-<span class="cstat-no" title="statement not covered">				if (typeof idBreakdown[0] !== 'undefined') {</span>
+<span class="cstat-no" title="statement not covered" >				idBreakdown = idArray[i];</span>
+<span class="cstat-no" title="statement not covered" >				if (typeof idBreakdown[0] !== 'undefined') {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">					var lottery = idBreakdown[0];</span>
-<span class="cstat-no" title="statement not covered">					idBreakdown = idBreakdown.substr(1);</span>
+<span class="cstat-no" title="statement not covered" >					var lottery = idBreakdown[0];</span>
+<span class="cstat-no" title="statement not covered" >					idBreakdown = idBreakdown.substr(1);</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">					r = new RegExp('[' + this.escapeRegExp(this.seps) + ']', 'g');</span>
-<span class="cstat-no" title="statement not covered">					idBreakdown = idBreakdown.replace(r, ' ');</span>
-<span class="cstat-no" title="statement not covered">					idArray = idBreakdown.split(' ');</span>
+<span class="cstat-no" title="statement not covered" >					r = new RegExp('[' + this.escapeRegExp(this.seps) + ']', 'g');</span>
+<span class="cstat-no" title="statement not covered" >					idBreakdown = idBreakdown.replace(r, ' ');</span>
+<span class="cstat-no" title="statement not covered" >					idArray = idBreakdown.split(' ');</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">					for (var j = 0; j !== idArray.length; j++) {</span>
+<span class="cstat-no" title="statement not covered" >					for (var j = 0; j !== idArray.length; j++) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">						var subId = idArray[j];</span>
-<span class="cstat-no" title="statement not covered">						var buffer = lottery + this.salt + alphabet;</span>
+<span class="cstat-no" title="statement not covered" >						var subId = idArray[j];</span>
+<span class="cstat-no" title="statement not covered" >						var buffer = lottery + this.salt + alphabet;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">						alphabet = this._shuffle(alphabet, buffer.substr(0, alphabet.length));</span>
-<span class="cstat-no" title="statement not covered">						ret.push(this._fromAlphabet(subId, alphabet));</span>
+<span class="cstat-no" title="statement not covered" >						alphabet = this._shuffle(alphabet, buffer.substr(0, alphabet.length));</span>
+<span class="cstat-no" title="statement not covered" >						ret.push(this._fromAlphabet(subId, alphabet));</span>
 					}
 &nbsp;
-<span class="cstat-no" title="statement not covered">					if (this._encode(ret) !== id) {</span>
-<span class="cstat-no" title="statement not covered">						ret = [];</span>
+<span class="cstat-no" title="statement not covered" >					if (this._encode(ret) !== id) {</span>
+<span class="cstat-no" title="statement not covered" >						ret = [];</span>
 					}
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				return ret;</span>
+<span class="cstat-no" title="statement not covered" >				return ret;</span>
 			}
 		}, {
 			key: '_shuffle',
-			value: <span class="fstat-no" title="function not covered">function _shuffle(alphabet, salt) {</span>
+			value: <span class="fstat-no" title="function not covered" >function _shuffle(alphabet, salt) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				var integer = void 0;</span>
+<span class="cstat-no" title="statement not covered" >				var integer = void 0;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				if (!salt.length) {</span>
-<span class="cstat-no" title="statement not covered">					return alphabet;</span>
+<span class="cstat-no" title="statement not covered" >				if (!salt.length) {</span>
+<span class="cstat-no" title="statement not covered" >					return alphabet;</span>
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				for (var i = alphabet.length - 1, v = 0, p = 0, j = 0; i &gt; 0; i--, v++) {</span>
+<span class="cstat-no" title="statement not covered" >				for (var i = alphabet.length - 1, v = 0, p = 0, j = 0; i &gt; 0; i--, v++) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">					v %= salt.length;</span>
-<span class="cstat-no" title="statement not covered">					p += integer = salt.charAt(v).charCodeAt(0);</span>
-<span class="cstat-no" title="statement not covered">					j = (integer + v + p) % i;</span>
+<span class="cstat-no" title="statement not covered" >					v %= salt.length;</span>
+<span class="cstat-no" title="statement not covered" >					p += integer = salt.charAt(v).charCodeAt(0);</span>
+<span class="cstat-no" title="statement not covered" >					j = (integer + v + p) % i;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">					var tmp = alphabet[j];</span>
-<span class="cstat-no" title="statement not covered">					alphabet = alphabet.substr(0, j) + alphabet.charAt(i) + alphabet.substr(j + 1);</span>
-<span class="cstat-no" title="statement not covered">					alphabet = alphabet.substr(0, i) + tmp + alphabet.substr(i + 1);</span>
+<span class="cstat-no" title="statement not covered" >					var tmp = alphabet[j];</span>
+<span class="cstat-no" title="statement not covered" >					alphabet = alphabet.substr(0, j) + alphabet.charAt(i) + alphabet.substr(j + 1);</span>
+<span class="cstat-no" title="statement not covered" >					alphabet = alphabet.substr(0, i) + tmp + alphabet.substr(i + 1);</span>
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				return alphabet;</span>
+<span class="cstat-no" title="statement not covered" >				return alphabet;</span>
 			}
 		}, {
 			key: '_toAlphabet',
-			value: <span class="fstat-no" title="function not covered">function _toAlphabet(input, alphabet) {</span>
+			value: <span class="fstat-no" title="function not covered" >function _toAlphabet(input, alphabet) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				var id = '';</span>
+<span class="cstat-no" title="statement not covered" >				var id = '';</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				do {</span>
-<span class="cstat-no" title="statement not covered">					id = alphabet.charAt(input % alphabet.length) + id;</span>
-<span class="cstat-no" title="statement not covered">					input = parseInt(input / alphabet.length, 10);</span>
+<span class="cstat-no" title="statement not covered" >				do {</span>
+<span class="cstat-no" title="statement not covered" >					id = alphabet.charAt(input % alphabet.length) + id;</span>
+<span class="cstat-no" title="statement not covered" >					input = parseInt(input / alphabet.length, 10);</span>
 				} while (input);
 &nbsp;
-<span class="cstat-no" title="statement not covered">				return id;</span>
+<span class="cstat-no" title="statement not covered" >				return id;</span>
 			}
 		}, {
 			key: '_fromAlphabet',
-			value: <span class="fstat-no" title="function not covered">function _fromAlphabet(input, alphabet) {</span>
+			value: <span class="fstat-no" title="function not covered" >function _fromAlphabet(input, alphabet) {</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				var number = 0;</span>
+<span class="cstat-no" title="statement not covered" >				var number = 0;</span>
 &nbsp;
-<span class="cstat-no" title="statement not covered">				for (var i = 0; i &lt; input.length; i++) {</span>
-<span class="cstat-no" title="statement not covered">					var pos = alphabet.indexOf(input[i]);</span>
-<span class="cstat-no" title="statement not covered">					number += pos * Math.pow(alphabet.length, input.length - i - 1);</span>
+<span class="cstat-no" title="statement not covered" >				for (var i = 0; i &lt; input.length; i++) {</span>
+<span class="cstat-no" title="statement not covered" >					var pos = alphabet.indexOf(input[i]);</span>
+<span class="cstat-no" title="statement not covered" >					number += pos * Math.pow(alphabet.length, input.length - i - 1);</span>
 				}
 &nbsp;
-<span class="cstat-no" title="statement not covered">				return number;</span>
+<span class="cstat-no" title="statement not covered" >				return number;</span>
 			}
 		}]);
 &nbsp;
@@ -1341,11 +1343,10 @@
 });
 &nbsp;
 &nbsp;</pre></td></tr>
-</tbody></table></pre>
+</table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Tue Apr 11 2017 19:00:01 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Wed Apr 19 2017 05:53:54 GMT+0000 (UTC)</div>
 </div>
-
-
-</body></html>
+</body>
+</html>
